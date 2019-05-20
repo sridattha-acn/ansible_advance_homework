@@ -1,3 +1,7 @@
 ---
 
+- name: start {{ webserver }}
+  service:
+    name: tomcat
+    state: started
 
